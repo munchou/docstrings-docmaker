@@ -20,6 +20,8 @@ All you need to do is:
 
 You confirm, wait a little, and you get a fancy generated HTML. No CSS, no other files, just a simple HTML file, easy to copy, share, erase by accident. Life can be beautiful, right?
 
+<b>IMPORTANT: your docstrings must be written in triple double-quotes: """, not single-quotes ''' (who does that anyway?).</b>
+
 ## A screenshot, because generosity
 <p align="center"><img src="docstrings-docmaker_screenshot01.png"/></p>
 <p align="center"><img src="docstrings-docmaker_screenshot02.png"/></p>
