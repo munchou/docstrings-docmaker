@@ -180,15 +180,14 @@ def menu():
             break
 
         dir_path = "./" if full_path_input == "" else full_path_input
-        output_path_input = "/home/munchou/Python-projects/docstrings-docmaker"
         if output_path_input != "" and not output_path_input.endswith("/"):
             output_path_input += "/"
 
         clear_screen()
-        project_name_input = "ZUPAsswordz Manager"
-        dir_path = "/home/munchou/Python-projects/zupasswords-manager"
+        # project_name_input = "ZUPAsswordz Manager"
+        # dir_path = "/home/munchou/Python-projects/zupasswords-manager"
         # output_path_input = "/home/munchou/Python-projects"
-        folders_to_skip = [".buildozer", "_env", "_saved-files"]
+        # folders_to_skip = [".buildozer", "_env", "_saved-files"]
 
         print("\tSUMMARY\n")
         print(f"Project's name: {project_name_input}")
